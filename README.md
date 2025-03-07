@@ -23,5 +23,5 @@ This project provides a FastAPI-based web application for text generation using 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository
+   git clone https://github.com/rikkcastro/granite-fastapi-test.git
+   cd granite-fastapi-test
