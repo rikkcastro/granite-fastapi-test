@@ -25,3 +25,50 @@ This project provides a FastAPI-based web application for text generation using 
    ```bash
    git clone https://github.com/rikkcastro/granite-fastapi-test.git
    cd granite-fastapi-test
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd granite-fastapi-test
+    ```
+
+3. **(Optional but recommended) Set up a virtual environment:**
+
+    ```bash
+    python -m venv venv
+    ```
+
+4. **Activate the virtual environment:**
+
+    - On Windows:
+
+    ```bash
+    .\venv\Scripts\activate
+    ```
+
+    - On macOS/Linux:
+
+    ```bash
+    source venv/bin/activate
+    ```
+
+5. **Install the required dependencies using pip:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+6. **(Optional) If the `requirements.txt` file does not exist or is incomplete, you can manually install the necessary dependencies, which may include FastAPI, Uvicorn, and other relevant libraries. For example:**
+
+    ```bash
+    pip install fastapi uvicorn
+    ```
+
+7. **Run the application:**
+
+    ```bash
+    uvicorn app.main:app --reload
+    ```
+
+This will start the FastAPI application, and you can access it locally at `http://127.0.0.1:8000`.
+
